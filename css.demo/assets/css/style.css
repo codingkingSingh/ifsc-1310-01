@@ -19,7 +19,8 @@ html {
 body {
     font-family: "Bungee Spice", sans-serif;
     background-color:blanchedalmond;
-}
+
+  }
 
 main{}
 
@@ -28,5 +29,76 @@ header.primary{
     color:#ffffff;
     text-align: center;
     text-shadow:2px 5px 10px #000000;
+/* long form */
+padding-top: 40px;
+padding-right: 40px;
+padding-bottom: 40px;
+padding-left: 40px;
+
+/* Single value short hand*/
+padding: 40px;
+/* T, R,B,L*/
+padding: 20px 40px 20px 40px;
+/* Two value top/bottom/ L/R */
+padding: 20px 40px;
 }
+
+header.primary h1{
+  font-size:2.5rem;
+  margin:20px 0;
+}
+
+header.primary h1 a{
+  color:#ffffff;
+  text-decoration:none;
+}
+
+header.primary h2{
+  font-size:1.4rem;
+  margin:0;
+}
+
+header.primary nav {
+
+}
+header.primary nav ul{
+display:flex;
+flex-direction:row;
+justify-content:space-around;
+padding:0;
+}
+header.primary nav ul li{
+list-style-type:none;
+}
+header.primary nav ul li a {
+color:#ffffff;
+text-decoration:none;
+border:1px solid #c0c0c0;
+padding:7.5px 10px;
+background-color: rgba(0,0,0,.4);
+border-radius:40px;
+transition: 2s;
+}
+
+header.primary nav ul li a:hover{
+  background-color: rgba(0,0,0,.8);
+}
+
+
+/*-----Media Queries------*/
+@media screen and (max-width: 900px){
+
+header.primary nav ul{
+
+flex-direction:column;
+gap:25px;
+max-width:200px;
+margin:10px auto;
+}
+
+header.primary nav a{
+  display:block;
+}
+}
+
 
