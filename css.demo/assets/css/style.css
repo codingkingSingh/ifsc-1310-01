@@ -1,0 +1,32 @@
+/*-------css-demo -------*/
+/*------ Color Scheme -----
+Main Color  - #F58773 
+
+*/
+
+/* --- Box Sizing ---*/
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+
+body {
+    font-family: "Bungee Spice", sans-serif;
+    background-color:blanchedalmond;
+}
+
+main{}
+
+header.primary{ 
+    background-color:blue;
+    color:#ffffff;
+    text-align: center;
+    text-shadow:2px 5px 10px #000000;
+}
+
