@@ -1,3 +1,86 @@
 body {
-    background-color: lightblue;
+    
+    color:aliceblue;
+    
+    background-position:center;
+        background-image:url('assets/img/backgroundshuttle.png');
+      background-attachment:fixed;
+     
 }
+
+.container{
+    width: 80vw;
+    margin: 40px auto;
+}
+.logopic {
+  width:1000px;
+  border:1px dashed #ffffff;
+  padding:4px;
+  display:block;
+  margin:auto;
+  
+
+}
+
+
+  
+  header.primary h1 {
+    color:#aeaeae;
+    text-decoration:none;
+    font-size: 50px;
+    text-align: center;
+  }
+  header.primary h1:hover{
+    border:1px solid #ffffff;
+    padding:7.5px 10px;
+    background-color: rgba(99, 98, 98, 0.861);
+
+    transition: 1s;
+      background-color: rgb(129, 128, 128);
+    }
+  
+  
+  header.primary h2{
+    font-size:30px;
+    color:#aeaeae;
+    margin:0;
+    text-align:center;
+  }
+
+  header.primary h2:hover{
+    border:1px solid #ffffff;
+    padding:7.5px 10px;
+    background-color: rgba(99, 98, 98, 0.861);
+
+    transition: 1s;
+      background-color: rgb(129, 128, 128);
+      background-image: url(https://i.pinimg.com/originals/e6/f7/d3/e6f7d34c80ef47899caaf3edb02e72c1.gif);
+  }
+
+  header.primary nav {
+    max-width: 700px;
+    margin:  auto;
+    }
+    header.primary nav ul{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    padding:0;
+    }
+    header.primary nav ul li{
+    list-style-type:none;
+    }
+    header.primary nav ul li a {
+    color:#f1efeff9;
+    text-decoration:none;
+    border:1px solid #ffffff;
+    padding:7.5px 10px;
+    background-color: rgba(99, 98, 98, 0.861);
+
+    transition: 1s;
+    }
+    
+    header.primary nav ul li a:hover{
+      background-color: rgb(0, 0, 0);
+      background-image: url(https://i.pinimg.com/originals/8e/ff/81/8eff81d46686e3c82c64565eb09393b9.gif);
+    }
