@@ -1,16 +1,17 @@
 body {
     
-    color:aliceblue;
+    color:#f0f8ff;
     
     background-position:center;
         background-image:url('assets/img/backgroundshuttle.png');
       background-attachment:fixed;
-     
-}
+      }
 
 .container{
     width: 80vw;
     margin: 40px auto;
+    
+    
 }
 .logopic {
   width:1000px;
@@ -29,6 +30,12 @@ body {
     text-decoration:none;
     font-size: 50px;
     text-align: center;
+    
+    
+      font-family: "DM Serif Text", serif;
+      font-weight: 400;
+      font-style: normal;
+    
   }
   header.primary h1:hover{
     border:1px solid #ffffff;
@@ -45,6 +52,12 @@ body {
     color:#aeaeae;
     margin:0;
     text-align:center;
+    
+  
+      font-family: "DM Serif Text", serif;
+      font-weight: 400;
+      font-style: normal;
+    
   }
 
   header.primary h2:hover{
@@ -84,3 +97,119 @@ body {
       background-color: rgb(0, 0, 0);
       background-image: url(https://i.pinimg.com/originals/8e/ff/81/8eff81d46686e3c82c64565eb09393b9.gif);
     }
+/*----------------table--------------------------*/
+table {
+  background-color: #000000;
+  color: #8f8f8f;
+  border: 1px dotted #ffffff;
+  padding: 30px;
+  width: 100%;
+  
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+table:hover {
+  background-color: rgb(0, 0, 0);
+  
+}
+
+caption {
+  color: #817f7f;
+  text-decoration: none;
+  font-size: 50px;
+  text-align: center;
+}
+
+caption:hover {
+  background-color: rgb(0, 0, 0);
+  background-image: url(https://i.pinimg.com/originals/8e/ff/81/8eff81d46686e3c82c64565eb09393b9.gif);
+ 
+}
+
+tr {
+  color: #f1efeff9;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 7.5px 10px;
+  background-color: transparent; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+th{color: #f1efeff9;
+  text-decoration: none;
+  font-size:larger;
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 7.5px 10px;
+  background-color: transparent; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+td {
+  color: #f1efeff9;
+  text-decoration: none;
+  border: 1px solid #ffffff;
+  text-align: center;
+  padding: 7.5px 10px;
+  background-color: transparent; 
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+td:hover {
+  background-color: rgba(128, 128, 128, 0.6); 
+  color: #ffffff; 
+}
+
+
+tr:hover {
+  background-color: rgb(0, 0, 0);
+  
+  color: #ffffff; 
+}
+
+
+th:hover {
+  border: 1px solid #ffffff;
+  padding: 7.5px 10px;
+  background-color: rgba(0, 0, 0, 0.861);
+  color: white;
+  transition: 1s;
+}
+    
+
+   
+
+
+    footer a {
+      max-width: 700px;
+      margin:  auto;
+      }
+      footer a{
+      display:flex;
+      flex-direction:row;
+      justify-content:space-around;
+      padding:0;
+      }
+      footer a{
+      list-style-type:none;
+      }
+     footer a {
+      color:#f1efeff9;
+      text-decoration:none;
+      border:1px solid #ffffff;
+      padding:7.5px 10px;
+      background-color: rgba(99, 98, 98, 0.861);
+  
+      transition: 1s;
+      }
+      
+      footer  a:hover{
+        background-color: rgb(0, 0, 0);
+        background-image: url(https://i.pinimg.com/originals/8e/ff/81/8eff81d46686e3c82c64565eb09393b9.gif);
+      }
