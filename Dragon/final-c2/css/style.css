@@ -26,7 +26,7 @@ body {
 
 .images_heading{
   width:300px;
-  border:1px dashed #ffffff;
+  
   padding:4px;
   display:block;
   margin:auto;
@@ -143,7 +143,7 @@ body {
 
     }
     
-    strong:nth-of-type(2) {
+    strong {
       color: rgb(255, 255, 255);         
       
       font-weight: bold;   
@@ -308,3 +308,53 @@ th:hover {
     {
         color:black;
     }
+
+
+#firsty {
+    border:1px solid #ffffff;
+    padding: 10px;
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+
+  
+}
+    
+#secondy {
+    border:1px solid #ffffff;
+   background-color: #000000;
+    padding: 20px;
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+}
+#thirdy {
+    border:1px solid #ffffff;
+    background-color: #000000;
+    padding: 20px;
+    display:flex;
+    flex-direction: column; 
+    align-items: center;
+}
+    
+.containery {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px; 
+}
+h3 {
+    font-size: 1.8rem; 
+    color: #f0ecec; 
+    text-align: center; 
+    margin-bottom: 15px; 
+    font-weight: bold; 
+}
+
+h2 {
+    font-size: 3rem; 
+    color: #f5f4f4; 
+    font-weight: bold; 
+    text-align: center; 
+    margin-top: 20px; 
+    margin-bottom: 10px; 
+}
